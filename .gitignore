@@ -1,0 +1,16 @@
+# Python virtual environments
+venv/
+env/
+.env
+
+# Bytecode, build artifacts and notebook checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datasets and large model checkpoints
+data/*.csv
+data/*.tar.gz
+*.pt
+*.bin
+*.safetensors
